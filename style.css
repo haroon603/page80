@@ -7,6 +7,17 @@
     background-color: #ffffff !important;
 }
 
+.accordion .card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: right; 
+  color: red;
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067"; 
+}
+
 
 
 .sbar {
