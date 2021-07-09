@@ -636,6 +636,11 @@ input:checked + .slider:before {
 }
 
 @media screen and (max-width: 890px) {
+
+
+    .main-row{
+        height: 51px !important;
+    }
     
 
     .add-client-btn {
