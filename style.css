@@ -304,6 +304,22 @@ textarea {
 
 
 
+.checkbox-primary2 {
+    width: 18.5px !important;
+    height: 18.5px !important;
+}
+.checkbox-primary2:checked:before {
+    color: #615EFF !important;
+    top: 0px !important;
+    left: 3px !important;
+    font-size: 11px !important;
+}
+.checkbox-primary2:checked {
+    border: 1px solid #615EFF!important;
+}
+
+
+
 
 
 .checkbox {
@@ -706,6 +722,11 @@ input:checked + .slider:before {
 
     .set-mar1{
         margin-left: 0 !important;
+    }
+
+    .pad-r{
+        padding-right: 20px !important;
+        padding-bottom: 15px !important;
     }
     
     .set-pad{
