@@ -573,6 +573,13 @@ input:checked + .slider:before {
     }
 }
 
+@media only screen and (max-width: 1170px) and (min-width: 990px)  {
+
+    .padd-null{
+        padding: 0 !important;
+    }
+}
+
 @media screen and (max-width: 1080px) {
     .box-height-240 {
         height: 200px;
